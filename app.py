@@ -320,13 +320,13 @@ def fetch_poster(movie_title):
 def load_and_prepare_data():
 
     movies1 = pd.read_csv(
-        r'.\movies.csv'
+        r'movies.csv'
     )
     movies2 = pd.read_csv(
-        r'.\bollywood_movies.csv'
+        r'bollywood_movies.csv'
     )
     movies3 = pd.read_csv(
-        r'.\tmdb_5000_movies.csv'
+        r'tmdb_5000_movies.csv'
     )
 
     # Fix Bollywood columns
