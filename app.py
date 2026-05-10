@@ -328,6 +328,7 @@ def load_and_prepare_data():
     movies3 = pd.read_csv(
         r'tmdb_5000_movies.csv'
     )
+    movies3 = movies3.head(2500)
 
     # Fix Bollywood columns
     movies2.rename(columns={
